@@ -21,6 +21,9 @@ public class Program {
 		int quantity = sc.nextInt();
 		
 		Product product = new Product(name, price, quantity);
+		product.setName(name);
+		product.setPrice(price);
+		
 		System.out.println("Poduct data: " + product);
 		
 		System.out.print("Enter the number of products to be added in sotck: ");
