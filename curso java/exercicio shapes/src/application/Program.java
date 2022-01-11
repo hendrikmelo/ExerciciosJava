@@ -35,7 +35,7 @@ public class Program {
 				System.out.println("Height: ");
 				double height = sc.nextDouble();
 				list.add(new Rectangle(color, width, height));
-			}else if (type == 'c'){
+			}else{
 				System.out.println("Radius: ");
 				double radius = sc.nextDouble();
 				list.add(new Circle(color, radius));
